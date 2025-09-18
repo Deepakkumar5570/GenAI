@@ -11,3 +11,4 @@ chat = ChatGoogleGenerativeAI(model="gemini-2.5-flash")
 # Call the model
 response = chat.invoke("What is the NLP?")
 print(response.content)
+# print("")
